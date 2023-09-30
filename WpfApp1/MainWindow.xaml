@@ -1,0 +1,52 @@
+﻿<Window x:Class="WPFExecuteNonQuery.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="Insertar Datos" Height="500" Width="550">
+    <Grid>
+
+
+        <Label Content="Apellido:" HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtApellido" HorizontalAlignment="Left" Margin="100,20,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Nombre:" HorizontalAlignment="Left" Margin="20,60,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Margin="100,60,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Cargo:" HorizontalAlignment="Left" Margin="20,100,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCargo" HorizontalAlignment="Left" Margin="100,100,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Tratamiento:" HorizontalAlignment="Left" Margin="20,140,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTratamiento" HorizontalAlignment="Left" Margin="100,140,0,0" VerticalAlignment="Top" Width="100"/>
+
+
+        <Label Content="Nacimiento:" HorizontalAlignment="Left" Margin="20,180,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNacimiento" HorizontalAlignment="Left" Margin="100,180,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Contratacion:" HorizontalAlignment="Left" Margin="20,220,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtContratacion" HorizontalAlignment="Left" Margin="100,220,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Direccion:" HorizontalAlignment="Left" Margin="20,260,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDireccion" HorizontalAlignment="Left" Margin="100,260,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Ciudad:" HorizontalAlignment="Left" Margin="20,300,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCiudad" HorizontalAlignment="Left" Margin="100,300,0,0" VerticalAlignment="Top" Width="100"/>
+
+
+        <Label Content="Region:" HorizontalAlignment="Left" Margin="265,20,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtRegion" HorizontalAlignment="Left" Margin="355,20,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Codigo Postal:" HorizontalAlignment="Left" Margin="265,60,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCodigoPostal" HorizontalAlignment="Left" Margin="355,60,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Pais:" HorizontalAlignment="Left" Margin="265,100,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPais" HorizontalAlignment="Left" Margin="355,100,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Tel Domicilio:" HorizontalAlignment="Left" Margin="265,140,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTelDomicilio" HorizontalAlignment="Left" Margin="355,140,0,0" VerticalAlignment="Top" Width="100"/>
+
+
+        <Label Content="Extension:" HorizontalAlignment="Left" Margin="265,180,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtExtension" HorizontalAlignment="Left" Margin="355,180,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Notas:" HorizontalAlignment="Left" Margin="265,220,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNotas" HorizontalAlignment="Left" Margin="355,220,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Jefe:" HorizontalAlignment="Left" Margin="265,260,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtJefe" HorizontalAlignment="Left" Margin="355,260,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Sueldo Basico:" HorizontalAlignment="Left" Margin="265,300,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtSueldo" HorizontalAlignment="Left" Margin="355,300,0,0" VerticalAlignment="Top" Width="100"/>
+
+        <Button Margin="10,340,390,90" Width="150" Content="Guardar" Click="Button_Click"></Button>
+    </Grid>
+</Window>
+
